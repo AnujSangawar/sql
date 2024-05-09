@@ -1,0 +1,15 @@
+-- foreign key ON DELETE CASCADE
+
+
+create table institute(
+student_id int not null,
+addmission_year date,
+category varchar(10),
+dob date,
+dept_id int,
+fees_receipt_no int,
+email varchar(30),
+primary key (student_id)
+);
+
+drop table institute
